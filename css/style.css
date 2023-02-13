@@ -16,15 +16,51 @@ img {
 .flex  {
     display: flex;
 }
+
 /* Layout */
 .container {
     width: 60%;
     margin: 0 auto;
     /* Debug */
-    
     border: 1px solid black;
 }
-
+.big-container {
+    background-color: #B4D0E7;
+    /* Debug */
+    width: 100%;
+    height: 600px;
+    border: 1px solid red;
+}
+.row {
+    /* Debug */
+    margin: 0 auto;
+    width: 70%;
+    height: 500px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+.col {
+    /* Debug */
+    width: 70%;
+    height: 500px;
+    background-color: lightyellow;
+    border: 1px solid black;
+}
+.large-row {
+    /* Debug */
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+.large-col {
+    /* Debug */
+    width: 100%;
+    height: 600px;
+    background-color: lightyellow;
+    border: 1px solid black;
+}
 
 /* HEADER */
 /* header top */
@@ -56,13 +92,7 @@ img {
     border: 1px solid black;
 }
 /* Jumbotron */
-.jumbotron {
-    background-color: #B4D0E7;
-    /* Debug */
-    width: 100%;
-    height: 600px;
-    border: 1px solid red;
-}
+
 .jumbotron-container {
     margin: 0 auto;
     /* Debug */
@@ -79,23 +109,10 @@ img {
     background-color: lightgreen;
     border: 1px solid black;
 }
-.row {
-    /* Debug */
-    margin: 0 auto;
-    width: 70%;
-    height: 500px;
-    background-color: lightgreen;
-    border: 1px solid black;
-}
-.col {
-    /* Debug */
-    width: 70%;
-    height: 500px;
-    background-color: lightyellow;
-    border: 1px solid black;
-}
 
 /* MAIN */
+
+/* Business plan */
 .business-plan {
     /* DEBUG */
     background-color: aquamarine;
@@ -114,14 +131,44 @@ img {
     margin: 0 auto;
     width: 70%;
     height: 200px;
-    background-color: red;
+    background-color: yellow;
     border: 1px solid black;
 }
+
+/* Partners */
 .partners {
      /* DEBUG */
      background-color: rgb(0, 255, 145);
      height: 500px;
-
+}
+.operations {
+     /* DEBUG */
+     background-color: lightsalmon;
+}
+.users {
+       /* Debug */
+       margin: 0 auto;
+       width: 70%;
+       height: 200px;
+       background-color: blue;
+       border: 1px solid black;
 }
 
+/* Logos */
+/* Call to actions */
+
+.actions {
+    /* Debug */
+    background-color: #B4D0E7;
+    width: 100%;
+}
+
+/* faq */
+.faq {
+    /* Debug */
+    margin: 0 auto;
+    background-color: blue;
+    width: 70%;
+    height: 400px;
+}
 /* FOOTER */
