@@ -11,9 +11,81 @@
 
 
 /* UTILITIES */
+/* Common */
+.flex  {
+    display: flex;
+}
 /* Layout */
 
+
 /* HEADER */
+/* header top */
+.header-top {
+    height: 80px;
+    /* Debug */
+    background-color: lightpink;
+    border: 1px solid black;
+}
+.logo {
+    /* Debug */
+    width: 10%;
+    height: 80px;
+    background-color: lightslategray;
+    border: 1px solid black;
+}
+.nav-menu {
+    /* Debug */
+    width: 80%;
+    height: 80px;
+    background-color: lightslategray;
+    border: 1px solid black;
+}
+.nav-button {
+    /* Debug */
+    width: 10%;
+    height: 80px;
+    background-color: lightslategray;
+    border: 1px solid black;
+}
+/* Jumbotron */
+.jumbotron {
+    background-color: #B4D0E7;
+    /* Debug */
+    width: 100%;
+    height: 600px;
+    border: 1px solid red;
+}
+.jumbotron-container {
+    margin: 0 auto;
+    /* Debug */
+    width: 70%;
+    height: 600px;
+    background-color: lightcoral;
+    border: 1px solid black;
+}
+.main-title {
+    /* Debug */
+    margin: 0 auto;
+    width: 70%;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+.row {
+    /* Debug */
+    margin: 0 auto;
+    width: 70%;
+    height: 500px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+.col {
+    /* Debug */
+    width: 70%;
+    height: 500px;
+    background-color: lightyellow;
+    border: 1px solid black;
+}
 
 /* MAIN */
 
