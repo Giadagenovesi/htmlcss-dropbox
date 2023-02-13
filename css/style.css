@@ -4,18 +4,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+img {
+    max-width: 100%;
+}
  /* STYLES */
  body {
     font-family: 'Open Sans', sans-serif;
  }
-
-
 /* UTILITIES */
 /* Common */
 .flex  {
     display: flex;
 }
 /* Layout */
+.container {
+    width: 60%;
+    margin: 0 auto;
+    /* Debug */
+    
+    border: 1px solid black;
+}
 
 
 /* HEADER */
@@ -88,6 +96,32 @@
 }
 
 /* MAIN */
+.business-plan {
+    /* DEBUG */
+    background-color: aquamarine;
+    height: 800px;
+}
+.section-title {
+     /* Debug */
+    margin: 0 auto;
+    width: 70%;
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+}
+.enterprise {
+       /* Debug */
+    margin: 0 auto;
+    width: 70%;
+    height: 200px;
+    background-color: red;
+    border: 1px solid black;
+}
+.partners {
+     /* DEBUG */
+     background-color: rgb(0, 255, 145);
+     height: 500px;
+
+}
 
 /* FOOTER */
-
