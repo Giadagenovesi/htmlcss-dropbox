@@ -39,7 +39,6 @@ img {
     /* Debug */
     margin: 0 auto;
     width: 80%;
-    height: 600px;
     border: 1px solid red;
 }
 .logo-container {
@@ -49,14 +48,13 @@ img {
 .row {
     /* Debug */
     margin: 0 auto;
-    width: 80%;
     height: 500px;
     background-color: lightgreen;
     border: 1px solid black;
 }
 .col {
+    width: calc(100%/2);
     /* Debug */
-    width: 70%;
     background-color: lightyellow;
     border: 1px solid black;
 }
@@ -70,14 +68,23 @@ img {
 .large-col {
     /* Debug */
     width: 100%;
-    height: 600px;
+    
     background-color: lightyellow;
     border: 1px solid black;
 }
 .card {
-    width: 50%;
-    height: 50%;
+    width: calc(100%/2);
+    height: calc(100%/2);
     border: 3px solid green;
+}
+.tool {
+    width: calc(100% / 3);
+}
+.plans {
+    width: calc(100% / 3 );
+}
+.list {
+  width: calc(100% /5);
 }
 
 /* HEADER */
@@ -114,7 +121,6 @@ img {
 .main-title {
     /* Debug */
     margin: 0 auto;
-    width: 80%;
     height: 100px;
     background-color: lightgreen;
     border: 1px solid black;
@@ -131,7 +137,7 @@ img {
 .section-title {
      /* Debug */
     margin: 0 auto;
-    width: 70%;
+    width: 100%;
     height: 100px;
     background-color: red;
     border: 1px solid black;
@@ -139,29 +145,17 @@ img {
 .enterprise {
        /* Debug */
     margin: 0 auto;
-    width: 70%;
+    width: 100%;
     height: 200px;
     background-color: yellow;
     border: 1px solid black;
 }
 
 /* Partners */
-.partners {
-     /* DEBUG */
-     background-color: rgb(0, 255, 145);
-     height: 500px;
-}
+
 .operations {
      /* DEBUG */
      background-color: lightsalmon;
-}
-.users {
-       /* Debug */
-       margin: 0 auto;
-       width: 70%;
-       height: 200px;
-       background-color: blue;
-       border: 1px solid black;
 }
 
 /* Logos */
@@ -178,7 +172,7 @@ img {
     /* Debug */
     margin: 0 auto;
     background-color: blue;
-    width: 70%;
+   
     height: 400px;
 }
 /* FOOTER */
@@ -188,7 +182,7 @@ footer {
 }
 .language {
     margin: 0 auto;
-    width: 70%;
+    width: 100%;
     color: white;
     border: 2px solid red;
 }
