@@ -16,6 +16,9 @@ img {
 .flex  {
     display: flex;
 }
+.wrap {
+    flex-wrap: wrap;
+}
 
 /* Layout */
 .container {
@@ -24,17 +27,29 @@ img {
     /* Debug */
     border: 1px solid black;
 }
-.big-container {
+.jumbotron {
     background-color: #B4D0E7;
     /* Debug */
     width: 100%;
     height: 600px;
     border: 1px solid red;
 }
+.big-container {
+    background-color: palevioletred;
+    /* Debug */
+    margin: 0 auto;
+    width: 80%;
+    height: 600px;
+    border: 1px solid red;
+}
+.logo-container {
+    width: 100%;
+    background-color: blueviolet;
+}
 .row {
     /* Debug */
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
     height: 500px;
     background-color: lightgreen;
     border: 1px solid black;
@@ -42,7 +57,6 @@ img {
 .col {
     /* Debug */
     width: 70%;
-    height: 500px;
     background-color: lightyellow;
     border: 1px solid black;
 }
@@ -50,7 +64,6 @@ img {
     /* Debug */
     margin: 0 auto;
     width: 100%;
-    height: 600px;
     background-color: lightgreen;
     border: 1px solid black;
 }
@@ -60,6 +73,11 @@ img {
     height: 600px;
     background-color: lightyellow;
     border: 1px solid black;
+}
+.card {
+    width: 50%;
+    height: 50%;
+    border: 3px solid green;
 }
 
 /* HEADER */
@@ -93,18 +111,10 @@ img {
 }
 /* Jumbotron */
 
-.jumbotron-container {
-    margin: 0 auto;
-    /* Debug */
-    width: 70%;
-    height: 600px;
-    background-color: lightcoral;
-    border: 1px solid black;
-}
 .main-title {
     /* Debug */
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
     height: 100px;
     background-color: lightgreen;
     border: 1px solid black;
@@ -172,3 +182,13 @@ img {
     height: 400px;
 }
 /* FOOTER */
+
+footer {
+    background-color: black;
+}
+.language {
+    margin: 0 auto;
+    width: 70%;
+    color: white;
+    border: 2px solid red;
+}
