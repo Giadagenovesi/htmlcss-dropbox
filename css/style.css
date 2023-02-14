@@ -22,6 +22,9 @@ li {
 .wrap {
     flex-wrap: wrap;
 }
+.justify-between {
+    justify-content: space-between;
+}
 .btn-large {
     text-align: center;
     padding: 10px 15px;
@@ -29,7 +32,9 @@ li {
 .blue {
     color: white;
     background-color: #0061FF;
-
+}
+.white {
+    border: 2px solid black;
 }
 .btn-thin {
     text-align: center;
@@ -39,18 +44,24 @@ a {
     text-decoration: none;
     color: inherit;
 }
+.pad-top-2 {
+    padding-top: 2rem;
+}
 .pad-2 {
     padding-bottom: 2rem;
 }
 .pad-4 {
     padding-bottom: 4rem;
 }
+.secondary-title {
+    font-size: 1.5rem;
+}
 /* Layout */
 .container {
     width: 60%;
     margin: 0 auto;
     /* Debug */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .big-container {
     margin: 0 auto;
@@ -104,9 +115,7 @@ a {
 .tool {
     width: calc(100% / 3);
 }
-.plans {
-    width: calc(100% / 3 );
-}
+
 .list {
   width: calc(100% /5);
 }
@@ -159,28 +168,40 @@ a {
 
 /* Business plan */
 .business-plan {
-    /* DEBUG */
-    background-color: aquamarine;
-    height: 800px;
+    padding-top: 3rem;
 }
 .section-title {
-     /* Debug */
-    margin: 0 auto;
-    width: 100%;
-    height: 100px;
-    background-color: red;
-    border: 1px solid black;
+    font-size: 2.5rem;
 }
-.enterprise {
-       /* Debug */
-    margin: 0 auto;
-    width: 100%;
-    height: 200px;
-    background-color: yellow;
-    border: 1px solid black;
+.plans {
+    border: 1px solid grey;
+    line-height: 2rem;
+    text-align: justify;
+}
+.plan-type {
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+.plans-content {
+    margin: 0 20px;
+    font-size: .8rem;
+}
+.plans-content h4 {
+    font-size: 1.3rem;
+}
+.plans-content h5 {
+    font-size: 1rem;
 }
 
+
 /* Partners */
+.partners {
+    padding-top: 3rem;
+
+}
+.partners-img {
+    width: 70%;
+}
 
 .operations {
      /* DEBUG */
