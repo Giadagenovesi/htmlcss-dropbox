@@ -7,6 +7,9 @@
 img {
     max-width: 100%;
 }
+li {
+    list-style-type: none;
+}
  /* STYLES */
  body {
     font-family: 'Open Sans', sans-serif;
@@ -19,19 +22,29 @@ img {
 .wrap {
     flex-wrap: wrap;
 }
-.btn-blue {
-    padding: 5px 15px;
+.btn-large {
+    text-align: center;
+    padding: 10px 15px;
+}
+.blue {
     color: white;
     background-color: #0061FF;
+
+}
+.btn-thin {
+    text-align: center;
+    padding: 5px 15px;
 }
 a {
     text-decoration: none;
     color: inherit;
 }
-li {
-    list-style-type: none;
+.pad-2 {
+    padding-bottom: 2rem;
 }
-
+.pad-4 {
+    padding-bottom: 4rem;
+}
 /* Layout */
 .container {
     width: 60%;
@@ -39,31 +52,29 @@ li {
     /* Debug */
     border: 1px solid black;
 }
-.jumbotron {
-    padding-top: 80px;
-    background-color: #B4D0E7;
-    /* Debug */
-    width: 100%;
-    height: 600px;
-    border: 1px solid red;
-}
 .big-container {
-    background-color: palevioletred;
-    /* Debug */
     margin: 0 auto;
-    width: 80%;
-    border: 1px solid red;
+    width: 70%;
+    /* Debug */
+    /* border: 1px solid red; */
 }
 .logo-container {
     width: 100%;
     background-color: blueviolet;
 }
+
+.col-30 {
+    width: 30%;
+}
+
+.col-70 {
+    width: 70%;
+}
 .row {
-    /* Debug */
     margin: 0 auto;
-    height: 500px;
-    background-color: lightgreen;
-    border: 1px solid black;
+    /* Debug */
+/*     
+    border: 1px solid black; */
 }
 .col {
     width: calc(100%/2);
@@ -116,7 +127,7 @@ li {
 }
 .nav-menu li {
     display:inline-block;
-    margin: 0 15px;
+    margin: 0 15px 0 0;
 }
 .nav-button li {
     display:inline-block;
@@ -125,20 +136,23 @@ li {
 .nav-menu {
    display: flex;
    justify-content: space-between;
-    width: 80%;
+   width: 80%;
 }
 .nav-button {
     width: 10%;
 }
 
 /* Jumbotron */
-
+.jumbotron {
+    padding-top: 80px;
+    background-color: #B4D0E7;
+}
 .main-title {
-    /* Debug */
-    margin: 0 auto;
-    height: 100px;
-    background-color: lightgreen;
-    border: 1px solid black;
+    font-size: 3.5rem;
+    padding: 3rem 0 2rem;
+}
+.jumbotron h2 {
+    font-size: 3rem;
 }
 
 /* MAIN */
