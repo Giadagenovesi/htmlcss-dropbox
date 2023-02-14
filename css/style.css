@@ -80,6 +80,9 @@ a {
     width: 100%;
     background-color: blueviolet;
 }
+.col-20 {
+    width: 20%;
+}
 .col-30 {
     width: 30%;
 }
@@ -117,9 +120,6 @@ a {
     width: calc(100%/2);
     height: calc(100%/2);
     border: 3px solid green;
-}
-.list {
-  width: calc(100% /5);
 }
 
 /* HEADER */
@@ -224,19 +224,24 @@ a {
     font-size: 0.8rem;
 }
 
-/* faq */
-.faq {
-    /* Debug */
-    margin: 0 auto;
-}
+
 /* FOOTER */
 
 footer {
     background-color: black;
+    color: white;
+}
+.footer-top {
+    font-size: .8rem;
+    line-height: 2rem;
+    padding: 4rem 0;
+}
+.footer-top h4 {
+    padding-bottom: 1.5rem;
 }
 .language {
-    margin: 0 auto;
-    width: 100%;
-    color: white;
-    border: 2px solid red;
+    padding: 2rem 0;
+
+    
+
 }
