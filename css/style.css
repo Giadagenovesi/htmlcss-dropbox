@@ -105,35 +105,34 @@ body {
     background-color: white;
     width: 100%;
     height: 80px;
-    align-items: center;
+    padding: 0 1rem;
     font-size: .8rem;
     position:fixed;
     z-index: 999;
     border-bottom: 1px solid lightgray;
 }
+.nav-menu {
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link {
+   display: flex;
+   gap: 2rem;
+   line-height: 80px;
+}
 .header-top a {
     text-decoration: none;
     color: inherit;
 }
-.logo {
-    width: 10%;
-    margin-left: 10px;
+.header-top .btn{
+    color: white;
 }
-.nav-menu li {
-    display:inline-block;
-    margin: 0 15px 0 0;
+.logo-img {
+    vertical-align: middle;
 }
-.nav-button li {
-    display:inline-block;
-    margin: 0 10px;
-}
-.nav-menu {
-   display: flex;
-   justify-content: space-between;
-   width: 80%;
-}
-.nav-button {
-    width: 10%;
+
+.header-top a:hover {
+    border-bottom: 3px solid black;
 }
 
 /* Jumbotron */
@@ -166,7 +165,23 @@ body {
     font-size: 2.5rem;
 }
 .billing {
+    display: inline-block;
     margin-right: 2rem;
+}
+.full {
+    display: inline-block;
+    width:1rem ;
+    height: 1rem;
+    border: 4px solid #0061FF;
+    border-radius: 50%;
+   
+}
+.empty {
+    display: inline-block;
+    width:1rem ;
+    height: 1rem;
+    border: 1px solid grey;
+    border-radius: 50%;
 }
 .plans {
     border: 1px solid lightgrey;
@@ -226,7 +241,6 @@ body {
     padding: 5rem 0;
 }
 
-
 /* Logos */
 .logo-section {
     padding-top: 4rem;
@@ -269,11 +283,10 @@ body {
 }
 .designit {
     background-color:#A2D39B;
-    transition: all .3s;
 }
-.designit:hover {
+/* div.designit:active {
     border: 30px solid #b6e2b0;
-}
+} */
 .asu {
     background-color: #61082B;
 }
@@ -327,8 +340,9 @@ body {
     font-size: .8rem;
     display: none;
 }
-
-
+.question:hover .hidden-answer {
+    display: block;
+}
 
 /* FOOTER */
 
