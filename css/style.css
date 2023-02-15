@@ -34,15 +34,18 @@ body {
 .blue {
     color: white;
     background-color: #0061FF;
+    transition: all;
 }
 .white {
     border: 2px solid black;
     color: black;
+    transition: all;
 }
 .opaque {
     color: black;
     font-size: .7rem;
     background-color: rgba(255, 255, 255, 0.953);
+    transition: all;
 }
 .btn {
     display: inline-block;
@@ -64,7 +67,6 @@ body {
 .mt-4 {
     margin-top: 4rem;
 }
-
 .secondary-title {
     font-size: 1.5rem;
 }
@@ -96,8 +98,6 @@ body {
 .row {
     margin: 0 auto;
 }
-
-/* Hover */
 
 /* HEADER */
 /* header top */
@@ -131,7 +131,7 @@ body {
     vertical-align: middle;
 }
 
-.header-top a:hover {
+.header-top li:hover {
     border-bottom: 3px solid black;
 }
 
@@ -154,6 +154,9 @@ body {
 .jumbotron a {
     text-decoration: none;
 }
+.jumbotron a:hover {
+    opacity: 0.7; 
+}
 
 /* MAIN */
 
@@ -174,7 +177,6 @@ body {
     height: 1rem;
     border: 4px solid #0061FF;
     border-radius: 50%;
-   
 }
 .empty {
     display: inline-block;
@@ -208,10 +210,13 @@ body {
 .btn {
     text-decoration: none;
 }
+.business-plan a:hover {
+    opacity: 0.7;
+}
 .plans li {
     margin-bottom: .8rem;
 }
-.business-plan .fa-check   {
+.business-plan .fa-check {
     color: #0061FF;
 }
 .contact-us {
@@ -229,6 +234,9 @@ body {
 }
 .partners-img {
     width: 100%;
+}
+.partners a:hover {
+    opacity: 0.7; 
 }
 
 /* operations */
@@ -266,8 +274,8 @@ body {
 }
 
 .card img {
-    width: 50%;
-    filter: invert(100%);
+    width:50%;
+    filter:invert(100%);
 }
 .logos-square hr {
     width: 15%;
@@ -284,9 +292,9 @@ body {
 .designit {
     background-color:#A2D39B;
 }
-/* div.designit:active {
+/* .logo-srction img.active:active {
     border: 30px solid #b6e2b0;
-} */
+}  */
 .asu {
     background-color: #61082B;
 }
@@ -324,6 +332,9 @@ body {
     left: 120px;
     font-size: 0.8rem;
 }
+.actions .opaque:hover {
+    color: gray;
+}
 
 /* Faq */
 .faq {
@@ -345,7 +356,6 @@ body {
 }
 
 /* FOOTER */
-
 footer {
     background-color: black;
     color: white;
